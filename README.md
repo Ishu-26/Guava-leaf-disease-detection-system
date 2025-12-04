@@ -11,12 +11,7 @@ This system helps farmers, researchers, and students classify guava leaf disease
 b)  Detected Leaf Classes
 
 The system can identify the following 6 classes:
-Anthracnose
-Healthy
-Insect Bite
-Multiple Infection
-Scorch
-Yellow Leaf Disease (YLD)
+Anthracnose, Healthy, Insect Bite, Multiple Infection, Scorch, Yellow Leaf Disease (YLD)
 
 c) Key Features
 
@@ -30,38 +25,8 @@ d) System Architecture
 
 User Uploads Image → Preprocessing → TFLite Interpreter → CNN Prediction → Probability Graph Generation → Preventive Measures → Output to UI
 
-5) Block Diagram
 
- ┌────────────────────────┐
- │     User Interface     │
- │    (Gradio Web App)    │
- └──────────┬─────────────┘
-            │
- ┌──────────▼──────────┐
- │  Image Preprocessing │
- │ (Resize, Normalize)  │
- └──────────┬───────────┘
-            │
- ┌──────────▼──────────┐
- │    TFLite Model      │
- │   (MobileNetV2 CNN)  │
- └──────────┬───────────┘
-            │
- ┌──────────▼──────────┐
- │  Class Prediction    │
- │ Probability Mapping  │
- └──────────┬───────────┘
-            │
- ┌──────────▼──────────┐
- │ Prevention Suggestor │
- └──────────┬───────────┘
-            │
- ┌──────────▼──────────┐
- │  Output to UI        │
- │ (Graph + Text)       │
- └──────────────────────┘
-
-6) Project Structure
+e) Project Structure
 
 Smart-Guava-Leaf-Disease-Detection/
 │── app.py
@@ -73,7 +38,7 @@ Smart-Guava-Leaf-Disease-Detection/
 └── /screenshots
 
 
-7) Technologies Used
+f) Technologies Used
 
 Python
 TensorFlow & TFLite
@@ -82,7 +47,7 @@ Pillow
 Gradio
 Matplotlib
 
-8) Installation & Setup
+g) Installation & Setup
 
 1️⃣ Clone the Repository
 git clone https://github.com/Ishu-26/Guava-leaf-disease-detection-system.git
@@ -100,7 +65,7 @@ Open:
 http://127.0.0.1:7860
 
 
- 9) Preventive Measures Example
+ i) Preventive Measures Example
 
 Each disease class displays automatically generated advice, such as:
 
@@ -118,7 +83,7 @@ Monitor for nutrient deficiencies
 
 …and similar for all classes.
 
-10) Future Scope
+j) Future Scope
 
  1. Mobile App deployment (Android/iOS)
  2. Integration with IoT sensors & ESP32-CAM for real-time farm scanning
