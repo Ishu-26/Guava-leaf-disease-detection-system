@@ -1,0 +1,43 @@
+body {
+    background: #eef7f0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: #0d5c33;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.sub {
+    text-align: center;
+    color: #3a8158;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#result-box {
+    border: 2px solid #1d6f42;
+    padding: 15px;
+    border-radius: 10px;
+    background: #ffffff;
+    margin-bottom: 10px;
+}
+
+#info-box {
+    border-left: 5px solid #1d6f42;
+    padding: 10px 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#analyze-btn {
+    background: #1d6f42 !important;
+    color: white !important;
+    font-size: 18px !important;
+    border-radius: 12px !important;
+    padding: 10px;
+    margin-top: 10px;
+}
